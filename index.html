@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Meus produtos</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1>Minhas Compras</h1>
+			</div>
+		</header>
+
+			<section>
+				<h2>Produtos</h2>
+				<table>
+					<tr>
+						<th>Produto</th>
+						<th>Preço $</th>
+						<th>Quantidade</th>
+						<th>Total</th>
+					</tr>
+
+					<tr class="produtos">
+						<td class="info-produto" id="produto-1">Feijoada</td>
+						<td class="info-quantidade" id="quantidade-1">3.50</td>
+						<td class="info-preco" id="preco-1">3</td>
+						<td class="info-total" id="total-1"></td>
+						<td class="info-fim" id="fim-1"></td>
+					</tr>
+					
+				</table>
+				<button id="calculaTotal"  class="botao">Soma de Produtos</button>
+			</section>
+			<section>
+				<h2>Adicionar Produto as Compras</h2>
+				<form>
+					<fieldset>
+						<label for="nome">Produto:</label>
+						<input id="campo-produto" type="text" placeholder="digite o produto">
+					</fieldset>
+					<fieldset class="campo-medio">
+						<label for="preco">Preço:</label>
+						<input id="campo-preco" type="text" placeholder="digite o preço">
+					</fieldset>
+					<fieldset class="campo-medio">
+						<label for="quantidade">Quantidade:</label>
+						<input id="campo-quantidade" type="text" placeholder="digite a quantidade">
+					</fieldset>
+					<button id="adicionar-produto" class="botao bto-principal">Adicionar</button>
+				</form>
+			</section>
+
+		<script src="percorre.js">	</script>
+		<script src="calcula-total.js"> </script>
+		<script src="imprime-nome.js"> </script>
+		<script src="adiciona.js"> </script>
+		<section>
+		<h3>Grupo:</h3>
+		<h3>Ronildo Ferreira.</h3>
+		<h3>Augusto Fabricio.</h3>
+		</section>
+	</body>
+</html>
